@@ -1,8 +1,36 @@
 site_name: LLM Cody Wiki
 site_description: Curated knowledge base for Large Language Models
 site_url: https://example.com
+
+# Material for MkDocs theme
 theme:
-  name: mkdocs
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - Meta:
@@ -27,7 +55,17 @@ nav:
       - Applications: applications/overview.md
 site_dir: site
 markdown_extensions:
-  - toc
   - admonition
+  - toc:
+      permalink: true
   - footnotes
   - tables
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed

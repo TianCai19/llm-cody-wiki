@@ -5,7 +5,7 @@ A community-friendly wiki for Large Language Model (LLM) knowledge: foundations,
 ## Quick Start
 - Browse content in `docs/` directly.
 - Optional site (MkDocs):
-  - Install MkDocs (`pip install mkdocs`) when you’re ready.
+  - Install MkDocs + Material (`pip install mkdocs mkdocs-material`) when you’re ready.
   - Serve locally: `mkdocs serve` (open http://127.0.0.1:8000)
   - Build static site: `mkdocs build` (outputs to `site/`)
 

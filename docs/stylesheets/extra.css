@@ -1,0 +1,9 @@
+/* Custom tweaks for Material theme */
+:root {
+  /* Example: tighten content width slightly */
+  --md-typeset-max-width: 900px;
+}
+
+.md-typeset h1 {
+  letter-spacing: -0.01em;
+}
