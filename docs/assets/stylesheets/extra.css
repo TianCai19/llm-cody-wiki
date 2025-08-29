@@ -24,7 +24,7 @@
     radial-gradient(1200px 500px at -10% -10%, rgba(255,255,255,.08), transparent 40%),
     radial-gradient(800px 500px at 110% -10%, rgba(255,255,255,.06), transparent 40%),
     linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.55)),
-    url("../assets/hero.jpg");
+    url("../hero.jpg");
   background-size: cover;
   background-position: center;
 }
