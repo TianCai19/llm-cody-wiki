@@ -45,12 +45,18 @@ nav:
       - Prompting: prompting/overview.md
       - Models: models/overview.md
       - Training: training/overview.md
+      - Training / Swift (ms-swift): training/ms-swift.md
+      - Training / Unsloth: training/unsloth.md
       - Inference: inference/overview.md
       - Evaluation: evaluation/overview.md
+      - Evaluation / EvalScope: evaluation/evalscope.md
       - Datasets: datasets/overview.md
+      - Datasets / easy-dataset: datasets/easy-dataset.md
       - Alignment & Safety: alignment-safety/overview.md
       - Agents: agents/overview.md
+      - Agents / LangGraph Monitoring: agents/langgraph-monitoring.md
       - Tooling: tooling/overview.md
+      - Tooling / LiteLLM Local: tooling/litellm.md
       - Infrastructure: infrastructure/overview.md
       - Applications: applications/overview.md
 site_dir: site
