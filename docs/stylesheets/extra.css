@@ -1,9 +1,99 @@
 /* Custom tweaks for Material theme */
 :root {
-  /* Example: tighten content width slightly */
+  /* Slightly narrower width for readability */
   --md-typeset-max-width: 900px;
 }
 
 .md-typeset h1 {
   letter-spacing: -0.01em;
+}
+
+/* --- Hero section --- */
+.hero {
+  position: relative;
+  display: grid;
+  align-content: center;
+  min-height: 64vh;
+  padding: 6rem 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: .6rem;
+  overflow: hidden;
+  color: var(--md-primary-bg-color);
+  /* Replace the last layer with your own image in docs/assets/hero.jpg */
+  background:
+    radial-gradient(1200px 500px at -10% -10%, rgba(255,255,255,.08), transparent 40%),
+    radial-gradient(800px 500px at 110% -10%, rgba(255,255,255,.06), transparent 40%),
+    linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.55)),
+    url("../assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+[data-md-color-scheme="default"] .hero {
+  color: #fff;
+}
+
+[data-md-color-scheme="slate"] .hero {
+  color: #fff;
+}
+
+.hero__content {
+  max-width: 760px;
+}
+
+.hero .tagline {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.hero .buttons .md-button {
+  margin-right: .5rem;
+}
+
+.hero__scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: rgba(255,255,255,.9);
+  font-size: 1.4rem;
+}
+
+.hero__credit {
+  position: absolute;
+  right: 1rem;
+  bottom: .6rem;
+  font-size: .7rem;
+  opacity: .6;
+}
+
+/* --- Tiles grid --- */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 1rem 0 2rem;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .5rem;
+  text-decoration: none !important;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.tile span {
+  opacity: .85;
+}
+
+.tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
 }
