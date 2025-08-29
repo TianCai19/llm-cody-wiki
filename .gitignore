@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+
+# MkDocs site output
+site/
+
+# Python virtual environments
+.venv/
+venv/
+
+# Node (if used later for tooling)
+node_modules/

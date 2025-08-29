@@ -1,0 +1,33 @@
+site_name: LLM Cody Wiki
+site_description: Curated knowledge base for Large Language Models
+site_url: https://example.com
+theme:
+  name: mkdocs
+nav:
+  - Home: index.md
+  - Meta:
+      - Taxonomy: meta/taxonomy.md
+      - Style Guide: meta/style-guide.md
+      - Templates:
+          - Article: meta/templates/article.md
+  - Glossary: glossary.md
+  - Resources: resources.md
+  - FAQ: faq.md
+  - Topics:
+      - Prompting: prompting/overview.md
+      - Models: models/overview.md
+      - Training: training/overview.md
+      - Inference: inference/overview.md
+      - Evaluation: evaluation/overview.md
+      - Datasets: datasets/overview.md
+      - Alignment & Safety: alignment-safety/overview.md
+      - Agents: agents/overview.md
+      - Tooling: tooling/overview.md
+      - Infrastructure: infrastructure/overview.md
+      - Applications: applications/overview.md
+site_dir: site
+markdown_extensions:
+  - toc
+  - admonition
+  - footnotes
+  - tables
