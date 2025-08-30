@@ -57,6 +57,7 @@ nav:
       - Agents / LangGraph Monitoring: agents/langgraph-monitoring.md
       - Tooling: tooling/overview.md
       - Tooling / LiteLLM Local: tooling/litellm.md
+      - Tooling / OpenAI Harmony: tooling/openai-harmony.md
       - Infrastructure: infrastructure/overview.md
       - Applications: applications/overview.md
 site_dir: site
