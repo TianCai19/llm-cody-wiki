@@ -16,6 +16,8 @@ Curated references for deeper study and practical use.
 - LangChain: https://python.langchain.com
 - LlamaIndex: https://gpt-index.readthedocs.io
 - OpenTelemetry: https://opentelemetry.io
+- Unsloth RL Guide: https://docs.unsloth.ai/basics/reinforcement-learning-rl-guide/training-ai-agents-with-rl
+- OpenPipe Ruler: https://art.openpipe.ai/fundamentals/ruler
 
 ## Learning
 - The Batch (deeplearning.ai): https://www.deeplearning.ai/the-batch/
