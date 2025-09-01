@@ -2,6 +2,8 @@
 
 A community-friendly wiki for Large Language Model (LLM) knowledge: foundations, prompting, training, inference, evaluation, safety, agents, infrastructure, and applied patterns. Organized for quick lookup and steady growth.
 
+**Read the wiki online:** https://tiancai19.github.io/llm-cody-wiki/
+
 ## Quick Start
 - Browse content in `docs/` directly.
 - Optional site (MkDocs):
