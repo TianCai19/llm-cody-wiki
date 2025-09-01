@@ -47,9 +47,11 @@ nav:
       - Training: training/overview.md
       - Training / Swift (ms-swift): training/ms-swift.md
       - Training / Unsloth: training/unsloth.md
+      - Training / Unsloth RL: training/unsloth-rl.md
       - Inference: inference/overview.md
       - Evaluation: evaluation/overview.md
       - Evaluation / EvalScope: evaluation/evalscope.md
+      - Evaluation / Ruler: evaluation/ruler.md
       - Datasets: datasets/overview.md
       - Datasets / easy-dataset: datasets/easy-dataset.md
       - Alignment & Safety: alignment-safety/overview.md
