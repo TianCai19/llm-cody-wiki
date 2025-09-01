@@ -41,27 +41,31 @@ nav:
   - Glossary: glossary.md
   - Resources: resources.md
   - FAQ: faq.md
-  - Topics:
-      - Prompting: prompting/overview.md
-      - Models: models/overview.md
-      - Training: training/overview.md
-      - Training / Swift (ms-swift): training/ms-swift.md
-      - Training / Unsloth: training/unsloth.md
-      - Training / Unsloth RL: training/unsloth-rl.md
-      - Inference: inference/overview.md
-      - Evaluation: evaluation/overview.md
-      - Evaluation / EvalScope: evaluation/evalscope.md
-      - Evaluation / Ruler: evaluation/ruler.md
-      - Datasets: datasets/overview.md
-      - Datasets / easy-dataset: datasets/easy-dataset.md
-      - Alignment & Safety: alignment-safety/overview.md
-      - Agents: agents/overview.md
-      - Agents / LangGraph Monitoring: agents/langgraph-monitoring.md
-      - Tooling: tooling/overview.md
-      - Tooling / LiteLLM Local: tooling/litellm.md
-      - Tooling / OpenAI Harmony: tooling/openai-harmony.md
-      - Infrastructure: infrastructure/overview.md
-      - Applications: applications/overview.md
+  - Prompting: prompting/overview.md
+  - Models: models/overview.md
+  - Training:
+      - Overview: training/overview.md
+      - Swift (ms-swift): training/ms-swift.md
+      - Unsloth: training/unsloth.md
+      - Unsloth RL: training/unsloth-rl.md
+  - Inference: inference/overview.md
+  - Evaluation:
+      - Overview: evaluation/overview.md
+      - EvalScope: evaluation/evalscope.md
+      - Ruler: evaluation/ruler.md
+  - Datasets:
+      - Overview: datasets/overview.md
+      - easy-dataset: datasets/easy-dataset.md
+  - Alignment & Safety: alignment-safety/overview.md
+  - Agents:
+      - Overview: agents/overview.md
+      - LangGraph Monitoring: agents/langgraph-monitoring.md
+  - Tooling:
+      - Overview: tooling/overview.md
+      - LiteLLM Local: tooling/litellm.md
+      - OpenAI Harmony: tooling/openai-harmony.md
+  - Infrastructure: infrastructure/overview.md
+  - Applications: applications/overview.md
 site_dir: site
 markdown_extensions:
   - admonition
